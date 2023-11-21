@@ -1,3 +1,4 @@
+## 회원
 ### register_member.sql
 - ‘INSERT IN’문을 사용하여 회원을 등록하고 ‘COMMIT’으로 트랜잭션을 커밋한다. 중복된 회원 아이디인 경우 ‘DUP_ VAL_ON_INDEX’ 예외를 처리하고, 다른 예외가 발생한 경우 롤백하고 예외를 다시 발생시킨다.
 
